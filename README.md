@@ -1,5 +1,5 @@
 # sleep-EOG-analysis
-Preprocessing EOG signals for sleep staging
+Preprocessing EOG signals and modeling for automated sleep staging
 
 # data
 Haaglanden Medisch Centrum sleep staging database
