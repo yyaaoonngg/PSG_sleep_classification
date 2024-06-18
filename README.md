@@ -3,13 +3,18 @@ Preprocessing and analyzing PSG signals(EEG(4), EOG(2), EMG(1), ECG(1)) for mult
 
 # Data
 Haaglanden Medisch Centrum sleep staging database
+
 URL: https://physionet.org/content/hmc-sleep-staging/1.1
 
 # Preprocessing
-Band-Pass Filtering, Notch Filtering, Wavelet denoising, Resampling, Z-score normalization
+Band-Pass Filtering, Notch Filtering, Wavelet denoising, Resampling, Z-score normalization('./_Preprocessing.ipynb')
+
 <img width="931" alt="Screenshot 2024-06-18 at 14 35 52" src="https://github.com/hoho9337/PSG_sleep_classification/assets/97961767/e96d5673-7713-49b3-b95d-cec7eebbaed0">
 
 
 # Model
-2 layers of 1D-CNN + LSTM
+2 layers of 1D-CNN + LSTM ('./tensor_to_CNN_LSTM.ipynb')
+
+Preprocessed .edf data was processed into pytorch tensors ('./edf_to_tensor.ipynb')
+
 ![model](https://github.com/hoho9337/sleep-EOG-analysis/assets/97961767/5ccb71ae-4735-4268-a8e3-ad99b4fbf1f8)
