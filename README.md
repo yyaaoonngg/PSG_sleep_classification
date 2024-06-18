@@ -1,5 +1,5 @@
-# sleep-EOG-analysis
-Preprocessing EOG signals and modeling for automated sleep staging
+# sleep-PSG-analysis
+Preprocessing and analyzing PSG signals(EEG(4), EOG(2), EMG(1), ECG(1)) for multi-modal AI and automated sleep staging
 
 # data
 Haaglanden Medisch Centrum sleep staging database
