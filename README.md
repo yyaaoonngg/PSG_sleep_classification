@@ -1,5 +1,6 @@
-# Sleep-PSG-analysis
-Preprocessing and analyzing PSG signals(EEG(4), EOG(2), EMG(1), ECG(1)) for multi-modal AI and automated sleep staging
+# Sleep-PSG-analysis 🛌🏻
+본 프로젝트는 수면 뇌파 데이터를 포함한 다양한 생체신호 데이터를 종합적으로 분석하고, 이를 기반으로 수면 상태를 시각화한다. 이미지나 비디오를 보는 중 측정하여 label이 있는 뇌파를 기반으로 이미지를 재구성하는 연구는 많이 진행되었으나, 우리 데이터는 수면 생체 신호를 이용하여 label이 없는 상태에서 데이터 특성을 바탕으로 이미지를 생성한다. 이는 뇌졸중 환자와 같이 의사소통이 불가능한 사람들의 의사 파악 등에 활용할 수 있다는 점에서 의의가 있다.
+우리 프로젝트는 먼저 EEG, EMG, EOG, ECG 신호를 CNN+LSTM 모델을 통해 수면단계를 분류하고, 각 신호에 대하여 feature extraction을 진행한다. 이후 생성형 AI 기술을 사용하여, 추출한 특성들을 바탕으로 시각화된 이미지를 산출한다.
 
 # Data
 Haaglanden Medisch Centrum sleep staging database
