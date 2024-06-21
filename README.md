@@ -22,6 +22,6 @@ Preprocessed .edf data was processed into pytorch tensors ('./edf_to_tensor.ipyn
 
 # 결과
 ![image](https://github.com/yyaaoonngg/PSG_sleep_classification/assets/97872145/03267157-657b-4e90-9773-d5f38d192acb) <br>
-[서비스 화면]
+[서비스 화면] 최종 코드를 돌리면 생성되는 서비스 화면이다. 사용자는 보고 싶은 꿈의 내용을 입력한다.<br>
 ![image](https://github.com/yyaaoonngg/PSG_sleep_classification/assets/97872145/2b2c0012-af27-451d-ad5d-17f3842dda3f) <br>
-[이미지 출력 결과]
+[이미지 출력 결과] 한 사람의 각 램수면 단계에서의 이미지를 보여준다.
