@@ -21,7 +21,7 @@ Preprocessed .edf data was processed into pytorch tensors ('./edf_to_tensor.ipyn
 
 
 # 결과
-![image](https://github.com/yyaaoonngg/PSG_sleep_classification/assets/97872145/03267157-657b-4e90-9773-d5f38d192acb)
+![image](https://github.com/yyaaoonngg/PSG_sleep_classification/assets/97872145/03267157-657b-4e90-9773-d5f38d192acb) <br>
 [서비스 화면]
-![image](https://github.com/yyaaoonngg/PSG_sleep_classification/assets/97872145/2b2c0012-af27-451d-ad5d-17f3842dda3f)
+![image](https://github.com/yyaaoonngg/PSG_sleep_classification/assets/97872145/2b2c0012-af27-451d-ad5d-17f3842dda3f) <br>
 [이미지 출력 결과]
